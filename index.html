@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!--
+Johan Lilja
+joli1407
+joli1407@student.miun.se
+-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+        <title>Project_joli1407</title>
+        <script src = "js/Puzzle.js"> </script>
+        <script src = "js/Scores.js"> </script>
+    </head>
+	
+	<body>
+		<header>
+			<a href = "index.html" class = "logo">
+			<h1>Puzzle Creator</h1></a>
+			<ul class="nav">
+				<li><a href="index.html">Puzzle</a></li>
+				<li><a href="highscores.html">Highscores</a></li>
+			</ul>
+		</header>
+		
+		<main>
+			<div id="puzzleBar">
+			
+				<p>Welcome to Puzzle Creator. Select your image and get started!</p>
+					
+			<input type ="file" id = "fileDialog">
+				<input type = "button" value = "Start" id = "startButton">
+				<label id="timer">00:00</label>
+			</div>
+			
+			<div id = "leftsidebar">
+				<label class ="settinglabel"><input type="radio" name="difficulty" value="easy">Easy</label>
+				<label class ="settinglabel"><input type="radio" name="difficulty" value="normal" checked>Normal</label>
+				<label class ="settinglabel"><input type="radio" name="difficulty" value="hard">Hard</label>
+				<label class ="settinglabel"><input type="radio" name="difficulty" value="enthusiast">Enthusiast</label>
+				
+				<ul id="highscores" class="slimlist">
+					
+				</ul>
+			</div>
+			
+			<div id = "puzzleArea">
+				
+			</div>
+			
+			<div id = "gallery">
+				<img src = "img/puzzle01_thumb.jpg" alt="puzzle image" class = "thumb">
+				<img src = "img/puzzle02_thumb.jpg" alt="puzzle image" class = "thumb">
+				<img src = "img/puzzle03_thumb.jpg" alt="puzzle image" class = "thumb">
+				<img src = "img/puzzle04_thumb.jpg" alt="puzzle image" class = "thumb">
+			</div>
+		
+		</main>
+		
+		<footer>
+			<p>&copy; Johan Lilja 2015</p>
+		</footer>
+	</body>
+</html>

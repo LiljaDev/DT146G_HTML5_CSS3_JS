@@ -1,0 +1,137 @@
+/*******************************************************************************
+ * Puzzle Project, Kurs: DT146G
+ * File: style.css
+ * Desc: Style sheets for exam project
+ * 
+ * Johan Lilja
+ * joli1407
+ * joli1407@student.miun.se
+ ******************************************************************************/
+
+@media all
+{
+	.logo{
+		width: 100px;
+		margin: 0 auto;
+		}
+	
+	#gallery{
+		width: 128px;
+		background-color: rgb(20,20,20);
+		float:right;
+	}
+	
+	.thumb{
+		width: 64px;
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	
+	.slimlist{
+		margin-top: 100px;
+		text-align: left;
+		padding:0px;
+	}
+	
+	.slimlist li{
+		text-align: left;
+		display: block;
+	}
+	
+	.biglist{
+		text-shadow: 5px 5px 2px rgb(5,5,5);
+		font-size: 3em;
+	}
+	
+	.biglist li{
+		text-align: center;
+		display: block;
+	}
+	
+	h1{
+		text-shadow: 3px 3px 2px rgb(5,5,5);
+	}
+	
+	a{
+		color:white;
+	}
+	
+	.settinglabel{
+		display: block;
+	}
+	
+	#leftsidebar{
+		float: left;
+		width: 128px;
+		text-align: left;
+		display: block;
+	}
+	
+	#puzzleBar{
+		padding: 8px;
+		overflow:hidden;
+		background-color:rgb(20,20,20);
+	}
+	
+	#puzzleBar p{
+		margin:0px;
+		padding-bottom: 8px;
+	}
+	
+	html{
+		height: 100vh;
+	}
+	
+	body{
+		height:100%;
+		max-width: 1216px;
+		margin: 0 auto;
+		background-color: black;
+		font-family: helvetica, sans-serif;
+		color: white;
+	}
+		
+	main{
+		overflow:hidden;
+		min-height: 85%;
+		background-color: rgb(20,20,20);
+		text-align: center;
+	}
+	
+	header{
+		height: 10%;
+		max-height: 150px;
+		min-height: 110px;
+		overflow:hidden;
+		text-align: center;
+		float:top;
+		border-bottom: white solid 1px;
+		background-color: rgb(40,40,40);
+	}
+
+	footer{
+		background-color: rgb(13,13,13);
+		float:bottom;
+		height: 5%;
+		max-height: 40px;
+		min-height: 40px;
+		border-top: thin solid white;
+		text-align: center;
+		font-size: .8em;}
+	
+	.nav{
+		text-shadow: 3px 3px 2px rgb(5,5,5);
+		margin: 10px auto;
+		padding: 0px;
+	}
+	
+	.nav li{
+		display: inline;
+		text-align: center;
+		padding: 20px;
+	}
+	
+	canvas{
+		
+	}
+}
